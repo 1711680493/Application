@@ -1,0 +1,25 @@
+author Shendi
+version 1.0
+使用
+	回车键开始游戏(如果死亡 可以用回车键来继续游戏(撞墙则需要按回车立马按方向键))
+	R键重置游戏
+目录结构
+|-shendi
+	|-listener		监听事件
+		SnakeListener 蛇按键监听
+	|-snake
+		Draw		绘制接口
+		StartGame	开始游戏
+		|-game
+			SnakeRun	运行的主要类
+			SnakeTask	执行游戏事件 管理绘制
+		|-snake
+			Snake		代表一条蛇的信息
+			SnakeAction	蛇的方向
+			SnakeDraw	绘制蛇
+			SnakeDrawFactory	绘制蛇工厂类 获取SnakeDraw的实例
+		|-view
+			MainFrame	主窗体
+思路
+	使用二维数组表示游戏中的每一个小格子.
+	不同数字代表不同物体 详情看源码注释
