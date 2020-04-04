@@ -59,11 +59,6 @@ public class SnakeRun {
 			scene[10][16] = 4;
 			snake = new Snake(15,10);
 		}
-		//输出数组 文字贪吃蛇
-//		for (var i = 0;i < 20;i++) {
-//			System.out.println(Arrays.toString(scene[i]));
-//		}
-//		System.out.println("----------------------------");
 		//绘制格子 边界
 		{
 			BufferedImage gridIcon = new BufferedImage(600,400,BufferedImage.TYPE_INT_RGB);

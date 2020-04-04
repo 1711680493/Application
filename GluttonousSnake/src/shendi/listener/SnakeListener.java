@@ -6,6 +6,12 @@ import java.awt.event.KeyListener;
 import shendi.snake.snake.Snake;
 import shendi.snake.snake.SnakeAction;
 
+
+/**
+ * 蛇的按键事件
+ * @author Shendi <a href='tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1711680493'>QQ</a>
+ * @version 1.0
+ */
 public class SnakeListener implements KeyListener {
 	//蛇的引用
 	private Snake snake;

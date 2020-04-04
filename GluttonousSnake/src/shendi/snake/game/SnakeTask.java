@@ -18,6 +18,11 @@ public class SnakeTask extends TimerTask {
 
 	@Override
 	public void run() {
+		//输出数组 文字贪吃蛇
+//		for (var i = 0;i < 20;i++) {
+//			System.out.println(Arrays.toString(scene[i]));
+//		}
+//		System.out.println("----------------------------");
 		//之前位置改为蛇尾
 		scene[snake.getY()][snake.getX()] = -1;
 		//蛇行动
