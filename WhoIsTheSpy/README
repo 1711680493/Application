@@ -1,0 +1,27 @@
+JavaWeb项目
+H5 谁是卧底小游戏
+version: 1.0
+author: Shendi
+QQ: 1711680493
+
+用到的技术
+	Java
+	服务器: Tomcat 9.0
+		使用 Servlet 做后台处理
+		简单地demo 这里不添加数据库
+	Web:
+		html + css + js 制作页面
+		ajax 与服务器通信
+	JSon
+玩法
+	六个玩家一组,四个平民,一个警察一个杀手
+	杀手每晚可以投票杀一个人,警察每晚可以查一个人
+	白天所有玩家进行投票,票数最多的将会被处决
+	杀手杀掉所有平民或者警察则胜利
+	警察和平民则处决杀手胜利
+
+项目教程会发布在CSDN博客
+	我的博客: https://blog.csdn.net/qq_41806966
+	获取本项目教程和源码请关注实战专栏:https://blog.csdn.net/qq_41806966/category_9656338.html
+源码会放在 Github 上 请关注 Application 仓库 https://github.com/1711680493/Application
+这是我的Github: https://github.com/1711680493

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>谁是卧底 H5游戏 Made in Shendi</title>
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/room.css">
+</head>
+<body>
+	<!-- 开始界面 进入房间界面 -->
+	<div class='content'>
+		<a id='exit_room'>
+			<span class='title_log'>谁是卧底</span>
+		</a>
+		<!-- 人物显示 -->
+		<div class='players'></div>
+		<!-- 倒计时 -->
+		<div class='time'></div>
+		<!-- 聊天窗口 -->
+		<div class='info'>
+			<!-- 切换聊天频道 -->
+			<div class='info_switch'>
+				<button id='join_room'>加入房间</button>
+				<button id='info_public' value='all'>公共</button>
+				<button id='info_system' value='system'>系统</button>
+				<button id='info_together' value='together'>阵营</button>
+				<div id='info_my'>游戏事件状态...</div>
+			</div>
+			<!-- 聊天内容 -->
+			<div id='info_content'></div>
+			<!-- 发消息 -->
+			<div class='info_send'>
+				<input id='info_send_edit' type="text"/>
+				<button id='info_send_button'>发送</button>
+			</div>
+		</div>
+		<!-- 结束面板 -->
+		<div class='result'>
+			<h1>结果</h1>
+			<span id='result_info'>信息</span>
+			<button id='continue'>继续</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/room.js"></script>
+	<script type="text/javascript" src="../js/player.js"></script>
+</body>
+</html>

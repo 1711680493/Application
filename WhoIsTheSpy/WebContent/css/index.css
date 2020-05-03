@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+.content {
+	position: absolute;
+	width: 35%;
+	left: 50%;
+	height: 100%;
+	transform: translate(-50%,0);
+	background-color: red;
+	background-image: linear-gradient(#00ff7c,#5b96ce,#cadccc);
+}
+
+@media screen and (max-width: 1000px) {
+	.content {
+		width: 100%;
+		left: 0;
+		transform: translate(0,0);
+	}
+}
+
+.title {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	transform: translate(-50%,-20%);
+	font-size: 26px;
+	box-shadow: 1px 1px 10px 1px rgba(81, 76, 76, 0.31);
+}
+
+.start_game {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%,-20%);
+	text-decoration:none;
+	font-size: 26px;
+}
+
+#start_game:hover {
+	cursor: pointer;
+}
