@@ -1,4 +1,4 @@
-package shendi.game.whiisthespy.filter;
+package shendi.game.whoisthespy.filter;
 
 import java.io.IOException;
 
