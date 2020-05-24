@@ -1,0 +1,1 @@
+java -jar shendi-web-server-1.0.jar

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shendi Web Server</title>
+<style type="text/css">
+	div {
+		box-shadow: 0px 0px 1px 0px #000;
+		padding: 26px;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<div>
+			<h1>当你看到这个界面的时候,证明我写的Web服务器已经ok了</h1>
+			<h1>列举的一些系统文件,我放在了 web 访问目录下</h1>
+		</div>
+		<div>
+			使用的 Java14.<br />
+			<a href='tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1711680493'>QQ</a><br />
+			<p>
+				有个事情郁闷很久,就是下面示例文件在google浏览器打开会乱码(主要问题就是下面文件不是html的,没有设置 meta charset=...)<br />
+				解决办法就是加 Content-Type 告诉浏览器编码,但是这个会设置类型,也就会造成下面的示例文件不是原格式(换行直接没了)输出.<br />
+				后来我打开Tomcat的测试,发现Tomcat也有这个问题,于是就不那么郁闷了...
+			</p>
+			<a href='https://github.com/1711680493'>github</a>
+			<a href='https://blog.csdn.net/qq_41806966'>博客</a>
+			<h3>功能:</h3>
+			<ul>
+				<li>可以对web下资源的访问</li>
+				<li>可以自定义图标</li>
+				<li>mapper目录为私有目录</li>
+				<li>提供了映射类(sws文件(简单的中文重定向),class文件(这个类似于servlet))</li>
+				<li>支持重定向,转发</li>
+				<li>支持热更新</li>
+			</ul>
+			<h3>使用映射类需要用到此项目下的jar包,包含shendi.web.server.sws.ShendiWebServer接口,继承此接口来实现(类似于servlet)</h3>
+		</div>
+		<div>
+			<a href='/main.properties'>配置文件 main.properties 包含其他配置文件路径信息</a>
+		</div>
+		<div>
+			<a href='/config.properties'>配置文件 config.properties 包含服务器配置信息</a>
+			<iframe src="/config.properties">配置文件预览</iframe>
+		</div>
+		<div>
+			<a href='/favicon.ico'>图标文件 可以自行替换 默认在 项目的 web 文件夹下(替换的文件名必须一致)</a>
+			<img style='height: 100px;' alt="服务器图标" src="/favicon.ico">
+		</div>
+		<div>
+			<a href='/mapper.properties'>配置文件 mapper.properties 包含所有映射的配置</a>
+			<p>所有映射的类需实现 shendi.web.server.sws.ShendiWebServer 接口,并且需要在mapper文件夹或其子文件夹下</p>
+			<p>不同于tomcat和其他web服务器,我这里支持文本形式(中文)进行简单的重定向(后期扩展)</p>
+			<p>需要使用不为class的文件来进行映射,文件后缀必须为 .sws 例如 Hello.sws</p>
+			<iframe src="/mapper.properties">配置文件预览</iframe>
+		</div>
+		<div>
+			<a href='/mapper.sws'>映射文件示例</a>
+			<a href='/mapper'>跳转示例</a>
+			<iframe src="/mapper.sws">映射文件预览</iframe>
+		</div>
+		<div>
+			<a href='/Mapper1.java'>映射类示例 请将编译后的文件放入 mapper文件夹内</a>
+			<a href='/mapper1'>跳转示例</a>
+			<iframe src="/Mapper1.java">映射类预览</iframe>
+		</div>
+		<div>
+			<h1>转发示例 这里的表单提交后跳转 Login 接口(最终会转发到 LoginResult 接口来处理)</h1>
+			<form action='/login'>
+				<input type='text' name='account'><br />
+				<input type='text' name='pwd'><br />
+				<input type='submit'>
+			</form>
+			<h3>Login.java 的代码</h3>
+			<iframe src="/login.java">映射类预览</iframe>
+			<h3>LoginResult.java 的代码</h3>
+			<iframe src="/login.java">映射类预览</iframe>
+		</div>
+	</div>
+</body>
+</html>
