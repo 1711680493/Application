@@ -25,3 +25,9 @@
 >>java-version: 14.0.1<br>
 >>finish time: 2020-05-24
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWebServer)
+
+>### [Shendi Task Manager](https://github.com/1711680493/Application/tree/master/ShendiTaskManager)
+>>Java Swing任务管理<br>
+>>java-version: 14.0.1<br>
+>>finish time: 2020-06-12
+>>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiTaskManager)
