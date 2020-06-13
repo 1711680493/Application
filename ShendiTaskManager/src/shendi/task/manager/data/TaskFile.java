@@ -157,6 +157,7 @@ public class TaskFile {
 						tasks.append(task[0]);
 						tasks.append("|]");
 						tasks.append(state);
+						tasks.append("\r\n");
 					}
 					JLabel label = new JLabel(state);
 					panel.add(label);
