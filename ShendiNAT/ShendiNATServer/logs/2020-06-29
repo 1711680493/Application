@@ -1,0 +1,94 @@
+[Alarm] [2020-06-29 14:57:04] shendi.nat.server.receive.TCPReceive.lambda$0().131		>TCP接收器开启隧道没有此id,客户请求 ip: 127.0.0.1
+[Alarm] [2020-06-29 14:57:15] shendi.nat.server.receive.TCPReceive.lambda$0().131		>TCP接收器开启隧道没有此id,客户请求 ip: 127.0.0.1
+[Alarm] [2020-06-29 14:57:19] shendi.nat.server.receive.TCPReceive.lambda$0().131		>TCP接收器开启隧道没有此id,客户请求 ip: 127.0.0.1
+[Alarm] [2020-06-29 20:47:45] shendi.nat.server.receive.TCPReceive.lambda$0().128		>TCP接收器开启隧道没有此id,客户请求 ip: 127.0.0.1
+[Alarm] [2020-06-29 21:12:12] shendi.nat.server.receive.TCPReceive.lambda$0().128		>TCP接收器开启隧道没有此id,客户请求 ip: 127.0.0.1
+[Error] [2020-06-29 21:20:06] shendi.nat.server.protocol.TCPServer.lambda$0().121		>TCP协议类接收客户端数据出错: Connection reset
+[Error] [2020-06-29 21:20:06] shendi.nat.server.protocol.TCPServer.lambda$1().175		>客户端关闭了连接/用户处理出错: Connection reset
+[Info] [2020-06-29 21:20:38] shendi.nat.server.protocol.TCPServer.lambda$1().166		>用户关闭了连接,用户id: 0
+[Error] [2020-06-29 21:20:38] shendi.nat.server.protocol.TCPServer.lambda$0().86		>客户端被关闭了,端口为: 10000,错误为: 您的主机中的软件中止了一个已建立的连接。
+[Info] [2020-06-29 21:26:08] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 21:26:47] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Alarm] [2020-06-29 21:32:36] shendi.nat.server.receive.TCPReceive.lambda$0().132		>TCP接收器开启隧道没有此id,客户请求 ip: 127.0.0.1
+[Info] [2020-06-29 21:32:51] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 21:33:30] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 21:33:39] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Info] [2020-06-29 21:35:09] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 21:35:19] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Alarm] [2020-06-29 21:35:20] shendi.nat.server.protocol.TCPServer.onCreate().127		>连接被关闭了: Accept timed out
+[Info] [2020-06-29 21:36:29] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 21:36:38] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Alarm] [2020-06-29 21:36:39] shendi.nat.server.protocol.TCPServer.onCreate().128		>连接被关闭了: Accept timed out
+[Info] [2020-06-29 21:43:23] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 21:43:27] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 21:45:02] shendi.nat.server.protocol.TCPServer.lambda$1().177		>客户端关闭了连接/用户处理出错: Connection reset
+[Error] [2020-06-29 21:45:20] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Info] [2020-06-29 21:49:15] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Alarm] [2020-06-29 21:49:22] shendi.nat.server.receive.TCPReceive.lambda$0().132		>TCP接收器开启隧道没有此id,客户请求 ip: 127.0.0.1
+[Info] [2020-06-29 21:49:30] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 21:50:50] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Info] [2020-06-29 21:53:47] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 21:54:00] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 21:55:12] shendi.nat.server.protocol.TCPServer.lambda$1().177		>客户端关闭了连接或用户处理出错: Connection reset
+[Error] [2020-06-29 21:55:31] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Info] [2020-06-29 22:00:39] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Alarm] [2020-06-29 22:00:55] shendi.nat.server.receive.TCPReceive.lambda$0().132		>TCP接收器开启隧道没有此id,客户请求 ip: 127.0.0.1
+[Info] [2020-06-29 22:01:00] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 22:02:57] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Alarm] [2020-06-29 22:03:45] shendi.nat.server.receive.TCPReceive.lambda$0().112		>TCP接收器开启隧道,隧道已经是开启的,客户请求 ip: 127.0.0.1
+[Error] [2020-06-29 22:03:45] shendi.nat.server.protocol.TCPServer.lambda$1().177		>客户端关闭了连接或用户处理出错: Connection reset by peer
+[Alarm] [2020-06-29 22:05:19] shendi.nat.server.receive.TCPReceive.lambda$0().112		>TCP接收器开启隧道,隧道已经是开启的,客户请求 ip: 127.0.0.1
+[Error] [2020-06-29 22:05:19] shendi.nat.server.protocol.TCPServer.lambda$1().177		>客户端关闭了连接或用户处理出错: Connection reset by peer
+[Error] [2020-06-29 22:06:22] shendi.nat.server.protocol.TCPServer.lambda$1().177		>客户端关闭了连接或用户处理出错: Connection reset by peer
+[Alarm] [2020-06-29 22:07:31] shendi.nat.server.receive.TCPReceive.lambda$0().112		>TCP接收器开启隧道,隧道已经是开启的,客户请求 ip: 127.0.0.1
+[Error] [2020-06-29 22:07:31] shendi.nat.server.protocol.TCPServer.lambda$1().177		>客户端关闭了连接或用户处理出错: Connection reset by peer
+[Info] [2020-06-29 22:08:39] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 22:10:29] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 22:10:35] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Info] [2020-06-29 22:12:27] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 22:12:38] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 22:12:44] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Info] [2020-06-29 22:15:39] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 22:15:39] shendi.nat.server.protocol.TCPServer.onCreate().130		>TCP协议类onCreate初始化出错: Address already in use: bind
+[Error] [2020-06-29 22:15:39] shendi.nat.server.protocol.TCPServer.lambda$1().177		>客户端关闭了连接或用户处理出错: Socket closed
+[Info] [2020-06-29 22:21:18] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 22:21:33] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 22:21:42] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Error] [2020-06-29 22:21:42] shendi.nat.server.protocol.TCPServer.run().181		>与用户打开连接出错: Socket closed
+[Info] [2020-06-29 22:22:23] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 22:22:32] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Error] [2020-06-29 22:22:32] shendi.nat.server.protocol.TCPServer.run().181		>与用户打开连接出错: Socket closed
+[Info] [2020-06-29 22:25:03] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 22:25:10] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 22:25:19] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection resetConnection reset
+[Error] [2020-06-29 22:25:19] shendi.nat.server.protocol.TCPServer.run().181		>与用户打开连接出错: Socket closed
+[Info] [2020-06-29 22:25:57] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 0-127.0.0.1;8888
+[Info] [2020-06-29 22:26:02] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 0-127.0.0.1:8888
+[Error] [2020-06-29 22:26:03] shendi.nat.server.protocol.TCPServer.lambda$0().122		>TCP协议类接收客户端数据出错: Connection reset
+[Error] [2020-06-29 22:26:03] shendi.nat.server.protocol.TCPServer.run().181		>与用户打开连接出错: Socket closed
+[Info] [2020-06-29 22:27:47] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 1-127.0.0.1;8888
+[Info] [2020-06-29 22:27:47] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 1-127.0.0.1:8888
+[Info] [2020-06-29 22:27:47] shendi.nat.server.protocol.TCPServer.lambda$1().168		>用户关闭了连接,用户id: 0
+[Error] [2020-06-29 22:27:47] shendi.nat.server.protocol.TCPServer.onStop().188		>TCP协议类onStop 关闭output出错: Socket closed
+[Error] [2020-06-29 22:27:47] shendi.nat.server.protocol.TCPServer.lambda$0().86		>客户端被关闭了,端口为: 10000,错误为: 您的主机中的软件中止了一个已建立的连接。
+[Error] [2020-06-29 22:27:47] shendi.nat.server.protocol.TCPServer.run().181		>与用户打开连接出错: Socket closed
+[Info] [2020-06-29 22:28:52] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 2-127.0.0.1;8888
+[Info] [2020-06-29 22:28:52] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 2-127.0.0.1:8888
+[Info] [2020-06-29 22:28:53] shendi.nat.server.protocol.TCPServer.lambda$1().168		>用户关闭了连接,用户id: 0
+[Error] [2020-06-29 22:28:53] shendi.nat.server.protocol.TCPServer.onStop().188		>TCP协议类onStop 关闭output出错: Socket closed
+[Error] [2020-06-29 22:28:53] shendi.nat.server.protocol.TCPServer.lambda$0().86		>客户端被关闭了,端口为: 10000,错误为: 您的主机中的软件中止了一个已建立的连接。
+[Error] [2020-06-29 22:28:53] shendi.nat.server.protocol.TCPServer.run().181		>与用户打开连接出错: Socket closed
+[Info] [2020-06-29 22:29:41] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 3-127.0.0.1;8888
+[Info] [2020-06-29 22:29:55] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 4-127.0.0.1;8888
+[Info] [2020-06-29 22:30:04] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 5-127.0.0.1;8888
+[Info] [2020-06-29 22:30:12] shendi.nat.server.receive.TCPReceive.lambda$0().92		>添加了客户端: 6-127.0.0.1;8888
+[Info] [2020-06-29 22:30:12] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 6-127.0.0.1:8888
+[Info] [2020-06-29 22:30:12] shendi.nat.server.protocol.TCPServer.lambda$1().168		>用户关闭了连接,用户id: 0
+[Error] [2020-06-29 22:30:12] shendi.nat.server.protocol.TCPServer.onStop().188		>TCP协议类onStop 关闭output出错: Socket closed
+[Error] [2020-06-29 22:30:12] shendi.nat.server.protocol.TCPServer.run().181		>与用户打开连接出错: Socket closed
+[Error] [2020-06-29 22:30:12] shendi.nat.server.protocol.TCPServer.lambda$0().86		>客户端被关闭了,端口为: 10000,错误为: 您的主机中的软件中止了一个已建立的连接。
+[Info] [2020-06-29 22:31:28] shendi.nat.server.receive.TCPReceive.lambda$0().126		>隧道被打开了: 1-127.0.0.1:8888
+[Info] [2020-06-29 22:32:55] shendi.nat.server.protocol.TCPServer.lambda$1().168		>用户关闭了连接,用户id: 0
+[Alarm] [2020-06-29 22:32:58] shendi.nat.server.protocol.TCPServer.lambda$0().108		>TCP协议类数据格式data类型错误 端口为: 8888,数据为: data;c exitB
+[Info] [2020-06-29 22:34:21] shendi.nat.server.protocol.TCPServer.lambda$1().168		>用户关闭了连接,用户id: 1
+[Info] [2020-06-29 22:34:46] shendi.nat.server.protocol.TCPServer.lambda$1().168		>用户关闭了连接,用户id: 2

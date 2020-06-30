@@ -1,0 +1,80 @@
+[Error] [2020-06-29 13:28:02] shendi.nat.client.control.TCPController.open().42		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 13:28:02] shendi.nat.client.NATClient.main().49		>隧道 [null] 打开失败
+[Error] [2020-06-29 13:50:37] shendi.nat.client.control.TCPController.open().42		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 13:50:37] shendi.nat.client.NATClient.main().49		>隧道 [null] 打开失败
+[Error] [2020-06-29 13:56:02] shendi.nat.client.control.TCPController.open().42		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 13:56:02] shendi.nat.client.view.ConsoleView.open().41		>隧道 [1231231] 打开失败
+[Error] [2020-06-29 13:56:37] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 13:56:37] shendi.nat.client.view.ConsoleView.open().41		>隧道 [3123] 打开失败
+[Error] [2020-06-29 14:02:36] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:02:36] shendi.nat.client.view.ConsoleView.open().60		>隧道 [000] 打开失败
+[Error] [2020-06-29 14:03:41] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:03:41] shendi.nat.client.view.ConsoleView.open().60		>隧道 [123] 打开失败
+[Error] [2020-06-29 14:05:28] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:05:28] shendi.nat.client.view.ConsoleView.open().60		>隧道 [13] 打开失败
+[Error] [2020-06-29 14:16:47] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:16:47] shendi.nat.client.view.ConsoleView.open().63		>隧道 [123] 打开失败
+[Error] [2020-06-29 14:17:22] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:17:22] shendi.nat.client.view.ConsoleView.open().65		>隧道 [123] 打开失败
+[Error] [2020-06-29 14:33:44] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:33:44] shendi.nat.client.view.ConsoleView.open().64		>隧道 [lll] 打开失败
+[Error] [2020-06-29 14:34:52] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:34:52] shendi.nat.client.view.ConsoleView.open().65		>隧道 [1] 打开失败
+[Error] [2020-06-29 14:36:18] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:36:18] shendi.nat.client.view.ConsoleView.open().65		>隧道 [1] 打开失败
+[Error] [2020-06-29 14:36:38] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:36:38] shendi.nat.client.view.ConsoleView.open().65		>隧道 [12] 打开失败
+[Error] [2020-06-29 14:39:11] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:39:11] shendi.nat.client.view.ConsoleView.open().74		>隧道 [13] 打开失败
+[Error] [2020-06-29 14:46:30] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:46:30] shendi.nat.client.view.ConsoleView.open().84		>隧道 [123] 打开失败
+[Error] [2020-06-29 14:48:49] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:48:49] shendi.nat.client.view.ConsoleView.open().84		>隧道 [123] 打开失败
+[Error] [2020-06-29 14:49:06] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:49:06] shendi.nat.client.view.ConsoleView.open().84		>隧道 [23] 打开失败
+[Error] [2020-06-29 14:49:59] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:49:59] shendi.nat.client.view.ConsoleView.open().85		>隧道 [12] 打开失败
+[Error] [2020-06-29 14:50:09] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:50:09] shendi.nat.client.view.ConsoleView.open().85		>隧道 [1] 打开失败
+[Error] [2020-06-29 14:53:42] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:53:42] shendi.nat.client.view.ConsoleView.open().86		>隧道 [213] 打开失败
+[Error] [2020-06-29 14:53:56] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:53:56] shendi.nat.client.view.ConsoleView.open().86		>隧道 [1] 打开失败
+[Error] [2020-06-29 14:54:15] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:54:15] shendi.nat.client.view.ConsoleView.open().87		>隧道 [1] 打开失败
+[Error] [2020-06-29 14:54:54] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:54:54] shendi.nat.client.view.ConsoleView.open().87		>隧道 [1] 打开失败
+[Error] [2020-06-29 14:55:49] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:55:49] shendi.nat.client.view.ConsoleView.open().87		>隧道 [1] 打开失败
+[Error] [2020-06-29 14:56:07] shendi.nat.client.control.TCPController.open().41		>打开隧道错误: Connection refused: connect
+[Error] [2020-06-29 14:56:07] shendi.nat.client.view.ConsoleView.show().52		>隧道 [1] 打开失败
+[Info] [2020-06-29 14:57:04] shendi.nat.client.util.ProtocolUtils.analysisOpen().97		>开启隧道失败,信息为: 没有此id
+[Error] [2020-06-29 14:57:04] shendi.nat.client.view.ConsoleView.open().91		>隧道 [1] 打开失败
+[Info] [2020-06-29 14:57:15] shendi.nat.client.util.ProtocolUtils.analysisOpen().97		>开启隧道失败,信息为: 没有此id
+[Error] [2020-06-29 14:57:15] shendi.nat.client.view.ConsoleView.show().56		>隧道 [1] 打开失败
+[Info] [2020-06-29 14:57:19] shendi.nat.client.util.ProtocolUtils.analysisOpen().97		>开启隧道失败,信息为: 没有此id
+[Error] [2020-06-29 14:57:19] shendi.nat.client.view.ConsoleView.show().56		>隧道 [2] 打开失败
+[Error] [2020-06-29 20:42:45] shendi.nat.client.control.TCPController.open().45		>打开隧道,创建客户端错误,请重新打开: shendi.nat.protocol.TCPClient
+[Error] [2020-06-29 20:42:45] shendi.nat.client.view.ConsoleView.open().98		>隧道 [0] 打开失败
+[Error] [2020-06-29 20:43:28] shendi.nat.client.view.ConsoleView.open().98		>隧道 [0] 打开失败
+[Info] [2020-06-29 20:47:45] shendi.nat.client.util.ProtocolUtils.analysisOpen().97		>开启隧道失败,信息为: 没有此id
+[Error] [2020-06-29 20:47:45] shendi.nat.client.view.ConsoleView.open().98		>隧道 [1] 打开失败
+[Info] [2020-06-29 21:12:12] shendi.nat.client.util.ProtocolUtils.analysisOpen().97		>开启隧道失败,信息为: 没有此id
+[Error] [2020-06-29 21:12:12] shendi.nat.client.view.ConsoleView.open().98		>隧道 [0] 打开失败
+[Info] [2020-06-29 21:32:36] shendi.nat.client.util.ProtocolUtils.analysisOpen().97		>开启隧道失败,信息为: 没有此id
+[Error] [2020-06-29 21:32:36] shendi.nat.client.view.ConsoleView.open().98		>隧道 [0] 打开失败
+[Info] [2020-06-29 21:49:22] shendi.nat.client.util.ProtocolUtils.analysisOpen().97		>开启隧道失败,信息为: 没有此id
+[Error] [2020-06-29 21:49:22] shendi.nat.client.view.ConsoleView.open().98		>隧道 [1] 打开失败
+[Error] [2020-06-29 21:55:12] shendi.nat.client.protocol.TCPClient.lambda$0().128		>用户离开了 id=0
+[Info] [2020-06-29 22:00:55] shendi.nat.client.util.ProtocolUtils.analysisOpen().97		>开启隧道失败,信息为: 没有此id
+[Error] [2020-06-29 22:00:55] shendi.nat.client.view.ConsoleView.open().98		>隧道 [1] 打开失败
+[Error] [2020-06-29 22:03:45] shendi.nat.client.protocol.TCPClient.run().70		>与服务器的连接已断线!
+[Error] [2020-06-29 22:03:45] shendi.nat.client.protocol.TCPClient.onStop().159		>TCP 隧道 output 关闭出错: Socket closed
+[Error] [2020-06-29 22:05:19] shendi.nat.client.protocol.TCPClient.run().70		>与服务器的连接已断线!
+[Error] [2020-06-29 22:05:19] shendi.nat.client.protocol.TCPClient.onStop().159		>TCP 隧道 output 关闭出错: Socket closed
+[Error] [2020-06-29 22:07:31] shendi.nat.client.protocol.TCPClient.run().70		>与服务器的连接已断线!
+[Error] [2020-06-29 22:07:31] shendi.nat.client.protocol.TCPClient.onStop().159		>TCP 隧道 output 关闭出错: Socket closed
+[Error] [2020-06-29 22:15:40] shendi.nat.client.protocol.TCPClient.run().70		>与服务器的连接已断线!
+[Error] [2020-06-29 22:15:40] shendi.nat.client.protocol.TCPClient.onStop().159		>TCP 隧道 output 关闭出错: Socket closed
+[Error] [2020-06-29 22:32:25] shendi.nat.client.protocol.TCPClient.run().153		>TCP协议类接收服务端数据出错: Connection refused: connect
+[Info] [2020-06-29 22:32:58] shendi.nat.client.protocol.TCPClient.lambda$0().116		>内网服务端断开指定用户,id: 0��data
