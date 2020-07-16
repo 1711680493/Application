@@ -1,0 +1,1 @@
+start javaw -jar shendi-chinesechess-1.0.jar
