@@ -494,7 +494,6 @@ public class DefaultGame extends Game {
 		}
 	}
 	
-	
 	/**
 	 * 马的可走路线.<br>
 	 * 马走日,正日倒日全能走,路前不能有它子.
