@@ -32,8 +32,14 @@
 >>finish time: 2020-06-12
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiTaskManager)
 
->### [Shendi Task Manager](https://github.com/1711680493/Application/tree/master/ShendiNAT)
+>### [Shendi NAT](https://github.com/1711680493/Application/tree/master/ShendiNAT)
 >>Java 内网穿透(NAT穿透,包含客户端服务端)<br>
 >>java-version: 14.0.1<br>
 >>finish time: 2020-06-30
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiNAT)
+
+>### [Chinese Chess](https://github.com/1711680493/Application/tree/master/ShendiNAT)
+>>Java swing中国象棋(人机对战)<br>
+>>java-version: 14.0.1<br>
+>>finish time: 2020-07-16
+>>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ChineseChess)
