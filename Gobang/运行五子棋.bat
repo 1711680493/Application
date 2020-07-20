@@ -1,0 +1,1 @@
+start javaw -jar shendi-gobang-1.0.jar

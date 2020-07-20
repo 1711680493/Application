@@ -43,3 +43,9 @@
 >>java-version: 14.0.1<br>
 >>finish time: 2020-07-16
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ChineseChess)
+
+>### [Gobang](https://github.com/1711680493/Application/tree/master/Gobang)
+>>Java swing五子棋/连珠棋(人机对战)<br>
+>>java-version: 14.0.1<br>
+>>finish time: 2020-07-20
+>>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Gobang)
