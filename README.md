@@ -6,15 +6,11 @@
 
 >>[点我直接前往](https://www.itsvse.com/downgit/#/home "下载指定目录文件的网站")<br>
 >奋勇向前！
-<br>
 [Java应用](#java)<br>
 [Web应用](#web)<br>
-<br>
 # Application
 >制作的一些开源的应用
-<br>
 ## Java
-<br>
 >### [Gluttonous Snake](https://github.com/1711680493/Application/tree/master/GluttonousSnake)
 >>Java swing贪吃蛇<br>
 >>java-version: 13.0.2<br>
@@ -56,7 +52,6 @@
 >>java-version: 14.0.1<br>
 >>finish time: 2020-07-20
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Gobang)
-<br>
 ## Web
 >### [Loading](https://github.com/1711680493/Application/tree/master/Loading)
 >>Web Js 加载效果<br>
