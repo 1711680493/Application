@@ -18,7 +18,6 @@ public class Application {
 	
 	private Application() {
 		try { logo = ImageIO.read(getClass().getResourceAsStream("/shendi_app_logo.png")); } catch (IOException e) { Log.printErr("读取logo图片错误,请检查 :" + e.getMessage()); }
-		
 	}
 	
 	/**

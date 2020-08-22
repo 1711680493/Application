@@ -1,13 +1,22 @@
 作者:[Shendi](http://www.shendi.xyz "Shendi Website")
 >QQ 1711680493<br>
->加个Star吧,以后一些实例都会放到这里<br>
+><b>加个Star吧,以后一些实例都会放到这里</b><br>
 >我会尽量给项目都提供直接下载链接--如果没有,则请自行进入到需要下载的那个目录,复制当前链接,到DownGit网站,粘贴下载<br>
 >DownGit链接:https://www.itsvse.com/downgit/#/home
 
 >>[点我直接前往](https://www.itsvse.com/downgit/#/home "下载指定目录文件的网站")<br>
 >奋勇向前！
+<br>
+<tr>
+[Java应用](#Java)
+[Web应用](#Web)
+<tr>
+<br>
 # Application
 >制作的一些开源的应用
+<tr>
+## Java
+<br>
 >### [Gluttonous Snake](https://github.com/1711680493/Application/tree/master/GluttonousSnake)
 >>Java swing贪吃蛇<br>
 >>java-version: 13.0.2<br>
@@ -49,3 +58,9 @@
 >>java-version: 14.0.1<br>
 >>finish time: 2020-07-20
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Gobang)
+<tr>
+## Web
+>### [Loading](https://github.com/1711680493/Application/tree/master/Loading)
+>>Web Js 加载效果<br>
+>>finish time: 2020-08-22
+>>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Loading)
