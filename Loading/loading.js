@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @author Shendi
  */
 var loading;
@@ -30,7 +30,7 @@ window.onload = function () {
 		// 隐藏遮罩
 		hide : function () {
 			document.body.removeChild(loadingDiv);
-			document.body.removeChild(style);
+			document.head.removeChild(style);
 		},
 		// 显示遮罩并修改遮罩图片
 		showAndSet : function (img) {
