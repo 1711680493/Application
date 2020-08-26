@@ -6,6 +6,10 @@ var cookie = {
 		/** 添加Cookie */
 		add : function (key, value, time) {
 			var date = new Date();
+			if (time == null) {
+				document.cookie = escape(btoa(key)) + "=" + escape(btoa(value));
+				return;
+			}
 			date.setTime(date.getTime() + time);
 	        document.cookie = escape(btoa(key)) + "=" + escape(btoa(value)) + ";expires=" + date.toGMTString();
 		},
