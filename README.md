@@ -64,3 +64,7 @@
 >>封装了对 Cookie 的操作<br>
 >>finish time: 2020-08-26
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWeb/Cookie)
+>### [Win](https://github.com/1711680493/Application/tree/master/ShendiWeb/Cookie)
+>>封装了对窗口的操作<br>
+>>finish time: 2020-08-29
+>>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWeb/Win)
