@@ -42,4 +42,4 @@ window.onload = function () {
 		// 遮罩图
 		getLoadingImg : loadingImg
 	}
-}
+};

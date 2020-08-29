@@ -21,7 +21,7 @@ var cookie = {
 				for (let i = 0; i < cookies.length; i++) {
 					let map = cookies[i].split("=");
 					if (key == atob(unescape(map[0]))) {
-						return atob(unescape(map[1]));
+						return escape(atob(unescape(map[1])));
 					}
 				}
 			}
@@ -66,4 +66,4 @@ var cookie = {
             	for (var i =  keys.length; i--;) document.cookie=keys[i] + "=; expires=" + date.toGMTString();
             }
 		}
-}
+};
