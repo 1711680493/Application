@@ -1,6 +1,6 @@
 # Web 加载效果遮罩
 >loaidng.js是源码<br>
->loading-min.js是压缩后的文件,实际应用使用这个
+>loading.min.js是压缩后的文件,实际应用使用这个
 
 ## API
 >使用 loading.showAndSet("加载图片路径"); 来设置和加载效果<br>

@@ -1,6 +1,6 @@
 # Cookie 封装类
 >cookie.js是源码<br>
->cookie-min.js是压缩后的文件,实际应用使用这个<br>
+>cookie.min.js是压缩后的文件,实际应用使用这个<br>
 >已对cookie进行加密编码处理,什么样的数据都能存入
 ## API
 #### cookie.add(key, value, time);
