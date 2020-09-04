@@ -2,7 +2,7 @@
  * @author Shendi
  */
 var loading;
-window.onload = function () {
+{
 	var loadingDiv = document.createElement("div");
 	loadingDiv.style.position = "absolute";
 	loadingDiv.style.top = 0;
@@ -42,4 +42,4 @@ window.onload = function () {
 		// 遮罩图
 		getLoadingImg : loadingImg
 	}
-};
+}
