@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<head>
+		<meta charset="utf-8" />
+		<title>俄罗斯方块 -Shendi</title>
+		<style>
+			#canvas {
+				position: absolute;
+			}
+			.pause {
+				position: absolute;
+				width: 480px;
+				height: 600px;
+				display: none;
+				text-align: center;
+				background-color: rgba(0, 0, 0,0.5);
+			}
+			.game_over {
+				position: absolute;
+				width: 480px;
+				height: 600px;
+				display: none;
+				text-align: center;
+				background-color: rgba(0, 0, 0,0.5);
+				color: white;
+			}
+			.game_over div {
+				position: absolute;
+				padding: 12px;
+				top: 40%;
+				left: 50%;
+				transform: translate(-50%, -40%);
+				background-color: #808080;
+				box-shadow: 1px 1px 1px 1px;
+				border-radius: 6px;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" width="480px" height="600px">你的浏览器不支持Canvas</canvas>
+		<!-- 暂停界面 -->
+		<div class='pause'>
+			<button onclick='run()'>继续游戏</button>
+		</div>
+		<!-- 游戏结束界面 -->
+		<div class='game_over'>
+			<div>
+				Gmae Over
+				<br><br>
+				你的得分:<span id='scope'></span>
+				<br><br>
+				<button onclick="main()">主页</button>
+			</div>
+		</div>
+	</body>
+	<script type='text/javascript' src="js/main.js"></script>
+	<script type="text/javascript">
+		// 获取暂停界面和结束界面
+		let pauseDiv = document.querySelector(".pause");
+		let gameOverDiv = document.querySelector(".game_over");
+		let scopeTxt = document.getElementById("scope");
+		// 显示暂停游戏面板
+		function pause() {
+			pauseDiv.style.display = "block";
+		}
+		// 显示游戏结束界面
+		function over(scope) {
+			gameOverDiv.style.display = "block";
+			scopeTxt.innerHTML = scope;
+		}
+		
+		// 初始化游戏
+		game.init(document.getElementById("canvas"));
+		
+		// 暂停界面继续游戏按钮点击
+		function run() {
+			game.run();
+			pauseDiv.style.display = "none";
+		}
+		// 游戏结束进入主页按钮点击
+		function main() {
+			game.init();
+			gameOverDiv.style.display = "none";
+		}
+	</script>
+</html>

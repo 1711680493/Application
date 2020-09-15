@@ -55,6 +55,13 @@
 >>finish time: 2020-07-20
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Gobang)
 ## Web
+
+>### [Tetris](https://github.com/1711680493/Application/tree/master/Tetris)
+>>H5 俄罗斯方块<br>
+>>finish time: 2020-09-15<br>
+>>[点我试玩](https://1711680493.github.io/Tetris/index.html)<br>
+>>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Tetris)
+
 >### [整合文件-sw.js](https://github.com/1711680493/Application/tree/master/ShendiWeb)
 >### [Loading](https://github.com/1711680493/Application/tree/master/ShendiWeb/Loading)
 >>Web Js 加载效果<br>
