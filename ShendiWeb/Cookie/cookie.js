@@ -13,15 +13,18 @@ var cookie = {
 			date.setTime(date.getTime() + time);
 	        document.cookie = escape(btoa(key)) + "=" + escape(btoa(value)) + ";expires=" + date.toGMTString();
 		},
-		/** 获取Cookie */
-		get : function (key) {
+		/**
+		 * 获取Cookie
+		 * @param isEncode 如果不为null,则返回的cookie值不会被编码
+		 */
+		get : function (key, isEncode) {
 			var c = document.cookie;
 			if (c != "") {
 				var cookies = c.split(";");
 				for (let i = 0; i < cookies.length; i++) {
 					let map = cookies[i].split("=");
 					if (key == atob(unescape(map[0]))) {
-						return escape(atob(unescape(map[1])));
+						return isEncode == null ? escape(atob(unescape(map[1]))) : atob(unescape(map[1]));
 					}
 				}
 			}
