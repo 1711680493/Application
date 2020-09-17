@@ -24,7 +24,7 @@ var cur = {
 		cur.num = nextCur.num;
 		cur.arrX = nextCur.arrX;
 		cur.arrY = nextCur.arrY;
-		cur.color = nextCur.color
+		cur.color = nextCur.color;
 		cur.state = nextCur.state;
 		nextCur.spawn();
 	}
