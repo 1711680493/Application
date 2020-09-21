@@ -164,11 +164,11 @@ ajax = {
 	 * @param {String} type 请求的类型
 	 * @param {String} url 请求的路径
 	 * @param {function} callback 请求状态为4时回调的函数,其中会传递三个参数,分别为响应数据,响应状态,xhr.
-	 * @param {String} data 请求的数据,一般用于POST请求
 	 * @param {boolean} sync true异步,false同步
+	 * @param {String} data 请求的数据,一般用于POST请求
 	 * @param {boolean} crossDomain 是否允许跨域
 	 */
-	req : function (type, url, callback, data, sync, crossDomain) {
+	req : function (type, url, callback, sync, data, crossDomain) {
 		var xhr = ajax.xhr();
 		xhr.withCredentials = crossDomain == true;
 		xhr.onreadystatechange = function () {
