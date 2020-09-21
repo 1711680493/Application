@@ -75,3 +75,7 @@
 >>封装了对窗口的操作<br>
 >>finish time: 2020-08-29
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWeb/Win)
+>### [Ajax](https://github.com/1711680493/Application/tree/master/ShendiWeb/Ajax)
+>>封装了对Ajax的操作,允许跨域<br>
+>>finish time: 2020-09-21
+>>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWeb/Ajax)
