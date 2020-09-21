@@ -19,11 +19,13 @@ ajax = {
 	req : function (type, url, callback, sync, data, crossDomain) {
 		var xhr = ajax.xhr();
 		xhr.withCredentials = crossDomain == true;
-		xhr.onreadystatechange = function () {
-			if (xhr.readyState == 4) {
-				callback(xhr.responseText, xhr.status, xhr);
-			}
-		};
+		if (callback != null) {
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState == 4) {
+					callback(xhr.responseText, xhr.status, xhr);
+				}
+			};
+		}
 		xhr.open(type, url, sync==true);
 		xhr.send(data);
 	},
@@ -38,11 +40,13 @@ ajax = {
 	post : function (url, data, callback, sync, crossDomain) {
 		var xhr = ajax.xhr();
 		xhr.withCredentials = crossDomain == true;
-		xhr.onreadystatechange = function () {
-			if (xhr.readyState == 4) {
-				callback(xhr.responseText, xhr.status, xhr);
-			}
-		};
+		if (callback != null) {
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState == 4) {
+					callback(xhr.responseText, xhr.status, xhr);
+				}
+			};
+		}
 		xhr.open("POST", url, sync==true);
 		xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 		xhr.send(data);
