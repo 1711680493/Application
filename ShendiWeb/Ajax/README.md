@@ -5,7 +5,7 @@
 ## API
 #### ajax.xhr();
 >获取 ajax 对象(通常用于自己手写ajax)<br>
-#### ajax.req(type, url, callback, data, crossDomain, sync)
+#### ajax.req(type, url, callback, data, sync, crossDomain)
 >执行 ajax 请求<br>
 >type为请求类型,url为请求路径,callback为响应的回调接口<br>
 >>其中,callback(txt, status, xhr);第一个参数为响应数据,第二个参数为响应状态,第三个参数为ajax对象<br>
