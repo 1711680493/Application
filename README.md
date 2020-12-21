@@ -54,28 +54,16 @@
 >>java-version: 14.0.1<br>
 >>finish time: 2020-07-20
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Gobang)
-## Web
 
+## Web
 >### [Tetris](https://github.com/1711680493/Application/tree/master/Tetris)
 >>H5 俄罗斯方块<br>
 >>finish time: 2020-09-15<br>
 >>[点我试玩](https://1711680493.github.io/Tetris/index.html)<br>
 >>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Tetris)
 
->### [整合文件-sw.js](https://github.com/1711680493/Application/tree/master/ShendiWeb)
->### [Loading](https://github.com/1711680493/Application/tree/master/ShendiWeb/Loading)
->>Web Js 加载效果<br>
->>finish time: 2020-08-22
->>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWeb/Loading)
->### [Cookie](https://github.com/1711680493/Application/tree/master/ShendiWeb/Cookie)
->>封装了对 Cookie 的操作<br>
->>finish time: 2020-08-26
->>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWeb/Cookie)
->### [Win](https://github.com/1711680493/Application/tree/master/ShendiWeb/Win)
->>封装了对窗口的操作<br>
->>finish time: 2020-08-29
->>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWeb/Win)
->### [Ajax](https://github.com/1711680493/Application/tree/master/ShendiWeb/Ajax)
->>封装了对Ajax的操作,允许跨域<br>
->>finish time: 2020-09-21
->>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWeb/Ajax)
+>### [WebUpDownFile](https://github.com/1711680493/Application/tree/master/WebUpDownFile)
+>>web文件上传下载示例<br>
+>>Tomcat 9,JDK 15
+>>finish time: 2020-12-21<br>
+>>[点我直接下载](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/WebUpDownFile)

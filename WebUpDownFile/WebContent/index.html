@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>文件上传下载测试</title>
+</head>
+<body>
+	<!-- 表单上传的方式 -->
+	<!-- <form action="/WebUpDownFile/up" method="post" enctype="multipart/form-data">
+		<input type='file' name='file' />
+		<input type='text' name='user' />
+		<input type='submit'>
+	</form> -->
+	
+	<input type='file' id='file'/>
+	<progress id='progress' max='100'></progress>
+	<img id='image' height='400px'/>
+	<script type="text/javascript">
+		var fi = document.getElementById("file");
+		var p = document.getElementById("progress");
+		var img = document.getElementById("image");
+		
+		fi.onchange = function () {
+			var data = new FormData();
+			data.append("file", fi.files[0]);
+			data.append("test", "test");
+			
+			var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+			xhr.open("POST","/WebUpDownFile/up");
+			xhr.onload = function () {
+				if (xhr.status == 200) {
+					// console.log("上传成功,文件地址为: " + xhr.responseText);
+					img.src = xhr.responseText;
+				}
+			}
+			// 设置进度条
+			xhr.upload.onprogress = function (env) {
+				p.value = env.loaded / env.total * 100;
+	        }
+			xhr.send(data);
+		};
+	</script>
+</body>
+</html>

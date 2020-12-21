@@ -1,2 +1,0 @@
-[Error] [2020-06-26 21:46:01] shendi.nat.server.receive.TCPReceive.lambda$0().148		>接收到数据,执行解析操作失败: Connection reset
-[Error] [2020-06-26 22:27:18] shendi.nat.server.receive.TCPReceive.lambda$0().120		>TCP接收器开启隧道,类找不到: shendi.nat.protocol.TCPReceive,客户请求 ip: 127.0.0.1
