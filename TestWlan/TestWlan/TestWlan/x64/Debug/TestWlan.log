@@ -1,0 +1,4 @@
+﻿  shendi_test_wlan_WlanUtil.cpp
+d:\testwlan\testwlan\testwlan\shendi_test_wlan_wlanutil.cpp(74): warning C4018: “<”: 有符号/无符号不匹配
+    正在创建库 D:\TestWlan\TestWlan\x64\Debug\WlanUtil.lib 和对象 D:\TestWlan\TestWlan\x64\Debug\WlanUtil.exp
+  TestWlan.vcxproj -> D:\TestWlan\TestWlan\x64\Debug\WlanUtil.dll

@@ -1,0 +1,9 @@
+package shendi.test.wlan;
+
+public class WlanInterface {
+
+	public final long GUID;
+	public final String desc;
+	public final int state;
+	
+}

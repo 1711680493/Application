@@ -1,0 +1,157 @@
+package shendi.test.wlan;
+
+import java.io.Closeable;
+import java.io.IOException;
+import java.util.List;
+
+public class WlanUtil implements Closeable {
+	/** 连接是否打开(句柄) */
+	private boolean isOpen;
+	
+	/**
+	 * 获取所有无线网卡接口信息
+	 * @param interfaces 获取信息的存储集合,为一个空的list(不为null)
+	 * @return 执行错误码
+	 */
+	native int getWlanEnumInterfaces(List<WlanInterface> interfaces);
+	
+	/**
+	 * 打开句柄.
+	 * @param maxVersion 客户端支持的最高WLAN版本
+	 * @param useVersion 使用的WLAN版本
+	 * @return 错误码
+	 */
+	native int openHandle(int maxVersion, int useVersion);
+	
+	/**
+	 * 关闭句柄
+	 * @return 错误码
+	 */
+	native int closeHandle();
+	
+	/**
+	 * 关闭指定接口的 WLAN 连接
+	 * @param 接口的下标
+	 * @return 错误码
+	 */
+	native int disconnect(int wlanIIndex);
+	
+	/**
+	 * 连接指定Wlan,使用Wlan名和配置文件内容
+	 * @param wlanName	名称
+	 * @param profile	配置文件内容
+	 * @return 错误码
+	 */
+	native int connect(int wlanInterfaceIndex, String wlanName, String profile);
+	
+	/**
+	 * 
+	 * @param wlanInterface
+	 */
+	native void flushInterface(WlanInterface wlanInterface);
+	
+	/**
+	 * 获取所有无线网卡接口信息
+	 * @param interfaces 获取信息的存储集合,为一个空的list(不为null)
+	 * @return 执行错误码
+	 */
+	public int wlanEnumInterfaces(List<WlanInterface> interfaces) {
+		if (!isOpen)
+			throw new RuntimeException("句柄未打开,请先执行open函数!");
+		return getWlanEnumInterfaces(interfaces);
+	}
+	
+	/**
+	 * 打开句柄,只有打开句柄后才能执行其他操作
+	 * @return 错误码
+	 */
+	public int open(int maxVersion, int useVersion) {
+		isOpen = true;
+		return openHandle(maxVersion, useVersion);
+	}
+
+	@Override
+	public void close() throws IOException {
+		if (isOpen) {
+			int result = closeHandle();
+			if (result != ErrorCode.ERROR_SUCCESS)
+				throw new IOException("关闭失败,错误码为: " + result);
+		}
+		isOpen = false;
+	}
+
+	/**
+	 * 关闭指定接口的 WLAN 连接.
+	 * @param wlanI wlan接口信息
+	 * @return 错误码
+	 */
+	public int closeConnect(WlanInterface wlanI) {
+		return closeConnect(wlanI.index);
+	}
+	/**
+	 * 关闭指定接口的 WLAN 连接.
+	 * @param wlanIIndex wlan接口下标
+	 * @return 错误码
+	 */
+	public int closeConnect(int wlanIIndex) {
+		if (!isOpen)
+			throw new RuntimeException("句柄未打开,请先执行open函数!");
+		return disconnect(wlanIIndex);
+	}
+	
+	/**
+	 * 使用一套固定的模板连接WLAN
+	 * @param wlanInterface 无线接口信息
+	 * @param wlanName 名称
+	 * @param pwd 密码
+	 * @return 错误码
+	 */
+	public int connectByPwd(WlanInterface wlanInterface, String wlanName, String pwd) {
+		return connectByPwd(wlanInterface.index, wlanName, pwd);
+	}
+	/**
+	 * 使用一套固定的模板连接WLAN
+	 * @param wlanInterfaceIndex 无线接口下标
+	 * @param wlanName 名称
+	 * @param pwd 密码
+	 * @return 错误码
+	 */
+	public int connectByPwd(int wlanInterfaceIndex, String wlanName, String pwd) {
+		String xmlContent = "<?xml version=\"1.0\"?><WLANProfile xmlns = \"http://www.microsoft.com/networking/WLAN/profile/v1\">"
+		+ "<name>"+ wlanName +"</name>"
+		+ "<SSIDConfig>"
+		+	"<SSID>"
+		+		"<name>" + wlanName + "</name>"
+		+	"</SSID>"
+		+	"<nonBroadcast>false</nonBroadcast>"
+		+ "</SSIDConfig>"
+		+ "<connectionType>ESS</connectionType>"
+		+ "<connectionMode>manual</connectionMode>"
+		+ "<autoSwitch>false</autoSwitch>"
+		+ "<MSM>"
+		+ "<security>"
+		+		"<authEncryption>"
+		+			"<authentication>WPA2PSK</authentication>"
+		+			"<encryption>AES</encryption>"
+		+			"<useOneX>false</useOneX>"
+		+		"</authEncryption>"
+		+		"<sharedKey>"
+		+			"<keyType>passPhrase</keyType>"
+		+			"<protected>false</protected>"
+		+			"<keyMaterial>" + pwd + "</keyMaterial>"
+		+		"</sharedKey></security></MSM></WLANProfile>";
+		return connectByProfile(wlanInterfaceIndex, wlanName, xmlContent);
+	}
+	/**
+	 * 连接指定Wlan,使用Wlan名和配置文件内容
+	 * @param wlanName	名称
+	 * @param profile	配置文件内容
+	 * @return 错误码
+	 */
+	public int connectByProfile(int wlanInterfaceIndex, String wlanName, String profile) {
+		if (!isOpen)
+			throw new RuntimeException("句柄未打开,请先执行open函数!");
+		return connect(wlanInterfaceIndex, wlanName, profile);
+	}
+	
+}

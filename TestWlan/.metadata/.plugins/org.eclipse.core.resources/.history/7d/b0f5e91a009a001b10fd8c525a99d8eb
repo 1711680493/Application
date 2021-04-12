@@ -1,0 +1,24 @@
+package shendi.test.wlan;
+
+public class WlanInterface {
+
+	public final long GUID;
+	public final String desc;
+	public final int state;
+	
+	public static final int not_ready = 0;
+    wlan_interface_state_connected,
+    wlan_interface_state_ad_hoc_network_formed,
+    wlan_interface_state_disconnecting,
+    wlan_interface_state_disconnected,
+    wlan_interface_state_associating,
+    wlan_interface_state_discovering,
+    wlan_interface_state_authenticating
+	
+	public WlanInterface(long GUID, String desc, int state) {
+		this.GUID = GUID;
+		this.desc = desc;
+		this.state = state;
+	}
+	
+}

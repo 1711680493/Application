@@ -1,0 +1,6 @@
+package shendi.test.wlan;
+
+public class ErrorCode {
+	public static final int ERROR_SUCCESS = 0;
+	
+}

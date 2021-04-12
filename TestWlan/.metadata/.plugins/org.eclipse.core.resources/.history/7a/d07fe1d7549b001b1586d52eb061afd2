@@ -1,0 +1,20 @@
+package shendi.test.wlan;
+
+public class TestPwd {
+
+	public static void main(String[] args) {
+		
+		// 加载dll文件
+		System.load("D:\\TestWlan\\TestWlan\\x64\\Debug\\WlanUtil.dll");
+		
+		// 可能出现的字符, 8-16位
+		char[] pwds = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+		
+		for (int i = 0; i < pwds.length; i++) {
+			char[] pwd = new char[pwds.length];
+			
+		}
+		
+	}
+	
+}

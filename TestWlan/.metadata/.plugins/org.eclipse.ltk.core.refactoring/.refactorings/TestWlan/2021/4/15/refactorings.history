@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;shendi.test.wlan.WlanGUID&apos; to &apos;WlanGuid&apos;&#x0D;&#x0A;- Original project: &apos;TestWlan&apos;&#x0D;&#x0A;- Original element: &apos;shendi.test.wlan.WlanGUID&apos;&#x0D;&#x0A;- Renamed element: &apos;shendi.test.wlan.WlanGuid&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WlanGUID&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;shendi.test.wlan{WlanGUID.java[WlanGUID" matchStrategy="1" name="WlanGuid" qualified="false" references="true" similarDeclarations="false" stamp="1617959631833" textual="false" version="1.0"/>
+</session>

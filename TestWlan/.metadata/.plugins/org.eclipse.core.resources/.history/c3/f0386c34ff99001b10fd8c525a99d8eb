@@ -1,0 +1,5 @@
+package shendi.test.wlan;
+
+public class WlanInterface {
+
+}

@@ -1,0 +1,14 @@
+package shendi.test.wlan;
+
+public class TestPwd {
+
+	public static void main(String[] args) {
+		
+		// ╪стьdllнд╪Ч
+		System.load("D:\\TestWlan\\TestWlan\\x64\\Debug\\WlanUtil.dll");
+		
+		char[] pwds = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+		
+	}
+	
+}

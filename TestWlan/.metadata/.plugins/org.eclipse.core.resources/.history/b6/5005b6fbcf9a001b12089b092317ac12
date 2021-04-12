@@ -1,0 +1,5 @@
+ackage shendi.test.wlan;
+
+public class WlanGuid {
+
+}
