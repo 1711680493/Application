@@ -1,14 +1,22 @@
-作者:[Shendi](http://www.shendi.xyz "Shendi Website")
->QQ 1711680493<br>
-><b>加个Star吧,以后一些实例都会放到这里</b><br>
->我会尽量给项目都提供直接下载链接--如果没有,则请自行进入到需要下载的那个目录,复制当前链接,到DownGit网站,粘贴下载<br>
->DownGit链接:https://www.itsvse.com/downgit/#/home
+作者：[Shendi](https://1711680493.github.io "Shendi Website")
 
->>[点我直接前往](https://www.itsvse.com/downgit/#/home "下载指定目录文件的网站")<br>
->>奋勇向前！<br>
+>QQ 1711680493
+>
+><b>加个Star吧,以后一些实例都会放到这里</b>
 
-###### [Java应用](#java)<br>
-###### [Web应用](#web)<br>
+
+
+下载方法：点击右上方的绿色的 code 按钮，选择Download ZIP。
+
+> 目前 down git 失效，所以请更换方式下载文件夹
+
+
+
+###### [Java应用](#java)
+
+###### [Web应用](#web)
+
+
 
 # Application
 >制作的一些开源的应用
