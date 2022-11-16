@@ -1,83 +1,85 @@
-×÷Õß£º[Shendi](https://1711680493.github.io "Shendi Website")
+[![Windows Status](http://img.shields.io/appveyor/ci/MSOpenTech-lab/redis.svg?style=flat-square)](https://ci.appveyor.com/project/MSOpenTech-lab/redis) [![NuGet version](http://img.shields.io/nuget/v/redis-64.svg?style=flat-square)](http://www.nuget.org/packages/redis-64/) [![Chocolatey version](http://img.shields.io/chocolatey/v/redis-64.svg?style=flat-square)](http://www.chocolatey.org/packages/redis-64/) [![Chocolatey downloads](http://img.shields.io/chocolatey/dt/redis-64.svg?style=flat-square)](http://www.chocolatey.org/packages/redis-64/)
+
+ä½œè€…ï¼š[Shendi](https://1711680493.github.io "Shendi Website")
 
 >QQ 1711680493
 >
-><b>¼Ó¸öStar°É,ÒÔºóÒ»Ğ©ÊµÀı¶¼»á·Åµ½ÕâÀï</b>
+><b>åŠ ä¸ªStarå§,ä»¥åä¸€äº›å®ä¾‹éƒ½ä¼šæ”¾åˆ°è¿™é‡Œ</b>
 
 
 
-ÏÂÔØ·½·¨£ºµã»÷ÓÒÉÏ·½µÄÂÌÉ«µÄ code °´Å¥£¬Ñ¡ÔñDownload ZIP¡£
+ä¸‹è½½æ–¹æ³•ï¼šç‚¹å‡»å³ä¸Šæ–¹çš„ç»¿è‰²çš„ code æŒ‰é’®ï¼Œé€‰æ‹©Download ZIPã€‚
 
-> Ä¿Ç° down git Ê§Ğ§£¬ËùÒÔÇë¸ü»»·½Ê½ÏÂÔØÎÄ¼ş¼Ğ
+> ç›®å‰ down git å¤±æ•ˆï¼Œæ‰€ä»¥è¯·æ›´æ¢æ–¹å¼ä¸‹è½½æ–‡ä»¶å¤¹
 
 
 
-###### [JavaÓ¦ÓÃ](#java)
+###### [Javaåº”ç”¨](#java)
 
-###### [WebÓ¦ÓÃ](#web)
+###### [Webåº”ç”¨](#web)
 
 
 
 # Application
->ÖÆ×÷µÄÒ»Ğ©¿ªÔ´µÄÓ¦ÓÃ
+>åˆ¶ä½œçš„ä¸€äº›å¼€æºçš„åº”ç”¨
 ## Java
 >### [Gluttonous Snake](https://github.com/1711680493/Application/tree/master/GluttonousSnake)
->>Java swingÌ°³ÔÉß<br>
+>>Java swingè´ªåƒè›‡<br>
 >>java-version: 13.0.2<br>
 >>finish time: 2020-04-03
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/GluttonousSnake)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/GluttonousSnake)
 
 >### [Who Is The Spy](https://github.com/1711680493/Application/tree/master/WhoIsTheSpy)
->>Java WebË­ÊÇÎÔµ×<br>
+>>Java Webè°æ˜¯å§åº•<br>
 >>java-version: 1.8<br>
 >>finish time: 2020-05-03
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/WhoIsTheSpy)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/WhoIsTheSpy)
 
 >### [Shendi Web Server](https://github.com/1711680493/Application/tree/master/ShendiWebServer)
->>JavaÊµÏÖWeb·şÎñÆ÷(Tomcat)<br>
+>>Javaå®ç°WebæœåŠ¡å™¨(Tomcat)<br>
 >>java-version: 14.0.1<br>
 >>finish time: 2020-05-24
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWebServer)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiWebServer)
 
 >### [Shendi Task Manager](https://github.com/1711680493/Application/tree/master/ShendiTaskManager)
->>Java SwingÈÎÎñ¹ÜÀí<br>
+>>Java Swingä»»åŠ¡ç®¡ç†<br>
 >>java-version: 14.0.1<br>
 >>finish time: 2020-06-12
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiTaskManager)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiTaskManager)
 
 >### [Shendi NAT](https://github.com/1711680493/Application/tree/master/ShendiNAT)
->>Java ÄÚÍø´©Í¸(NAT´©Í¸,°üº¬¿Í»§¶Ë·şÎñ¶Ë)<br>
+>>Java å†…ç½‘ç©¿é€(NATç©¿é€,åŒ…å«å®¢æˆ·ç«¯æœåŠ¡ç«¯)<br>
 >>java-version: 14.0.1<br>
 >>finish time: 2020-06-30
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiNAT)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ShendiNAT)
 
 >### [Chinese Chess](https://github.com/1711680493/Application/tree/master/ChineseChess)
->>Java swingÖĞ¹úÏóÆå(ÈË»ú¶ÔÕ½)<br>
+>>Java swingä¸­å›½è±¡æ£‹(äººæœºå¯¹æˆ˜)<br>
 >>java-version: 14.0.1<br>
 >>finish time: 2020-07-16
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ChineseChess)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/ChineseChess)
 
 >### [Gobang](https://github.com/1711680493/Application/tree/master/Gobang)
->>Java swingÎå×ÓÆå/Á¬ÖéÆå(ÈË»ú¶ÔÕ½)<br>
+>>Java swingäº”å­æ£‹/è¿ç æ£‹(äººæœºå¯¹æˆ˜)<br>
 >>java-version: 14.0.1<br>
 >>finish time: 2020-07-20
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Gobang)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Gobang)
 
 ## Web
 >### [Tetris](https://github.com/1711680493/Application/tree/master/Tetris)
->>H5 ¶íÂŞË¹·½¿é<br>
+>>H5 ä¿„ç½—æ–¯æ–¹å—<br>
 >>finish time: 2020-09-15<br>
->>[µãÎÒÊÔÍæ](https://1711680493.github.io/Tetris/index.html)<br>
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Tetris)
+>>[ç‚¹æˆ‘è¯•ç©](https://1711680493.github.io/Tetris/index.html)<br>
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/Tetris)
 
 >### [WebUpDownFile](https://github.com/1711680493/Application/tree/master/WebUpDownFile)
->>webÎÄ¼şÉÏ´«ÏÂÔØÊ¾Àı<br>
+>>webæ–‡ä»¶ä¸Šä¼ ä¸‹è½½ç¤ºä¾‹<br>
 >>Tomcat 9,JDK 15
 >>finish time: 2020-12-21<br>
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/WebUpDownFile)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/WebUpDownFile)
 
 >### [TestWlan](https://github.com/1711680493/Application/tree/master/TestWlan)
->>WLAN²Ù×÷²âÊÔ<br>
+>>WLANæ“ä½œæµ‹è¯•<br>
 >>Java,c++
 >>finish time: 2021-04-12<br>
->>[µãÎÒÖ±½ÓÏÂÔØ](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/TestWlan)
+>>[ç‚¹æˆ‘ç›´æ¥ä¸‹è½½](https://www.itsvse.com/downgit/#/home?url=https://github.com/1711680493/Application/tree/master/TestWlan)
